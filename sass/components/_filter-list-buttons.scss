@@ -1,0 +1,39 @@
+.filter-categories {
+    background-color: var(--background-hero-color);
+    margin-top: 94px;
+  }
+  .filter-categories{
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 56px;
+  
+    li {
+      margin-right: 8px;
+  
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+  
+  .button-filter {
+    color: var(--title-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background: #F5F4FA;
+    font-family: inherit;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 25px;
+    transition: background-color 250ms, color var(--baze-cubic);
+  
+    &:hover, &:focus {
+      background-color: var(--hover-color);
+      color: var(--background-hero-color);
+    }
+  }
+  

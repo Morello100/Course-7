@@ -1,0 +1,43 @@
+.our-work {
+    background-color: var(--background-hero-color);
+    margin-bottom: 188px;
+  }
+  
+  .our-work-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  
+  .our-work-img {
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .our-work-container {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: #2F303ACC;
+    margin: 0;
+    transform: translateY(-105%);
+  }
+  
+  .our-work-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 27px 0;
+    margin: 0;
+  }
+  

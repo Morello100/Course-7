@@ -1,0 +1,28 @@
+.thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    width: 370px;
+    height: 294px;
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0.9;
+    padding: 63px 24px;
+    transition: transform var(--baze-cubic);
+  }
+  
+  .work-list:hover .overlay {
+    transform: translateY(-100%);
+  }
+  
+  .overlay-text {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+  

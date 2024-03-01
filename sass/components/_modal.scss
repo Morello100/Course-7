@@ -1,0 +1,41 @@
+.modal {
+    position: absolute;
+    width: 528px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    transition: transform var(--baze-cubic);
+    padding: 40px;
+  }
+  
+  .close-button {
+    right: 8px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  
+    /* border: none; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    background-color: #FFFFFF;
+    transition: background-color var(--baze-cubic);
+  
+    &:hover, &:focus {
+      background-color: #dedede;
+    }
+  }
+  
+  .close-img {
+    width: 18px;
+    height: 18px;
+  }
+  
